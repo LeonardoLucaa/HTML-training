@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Notas</title>
+</head>
+<style>
+    .title1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+    }
+    #table{
+        width:450px;
+        border-color: #00008B;
+        background-color: #add8e6;
+        text-align: center;
+        
+    }
+    .linha{
+        background-color:#e6e6e6 ;
+    }
+    #Maior{
+        color: green;
+    }
+    .Menor{
+        color: red;
+    }
+
+</style>
+<body>
+    <h1 class="title1">Notas dos alunos</h1>
+    <hr>
+    <table id="table" border="1" cellspacing="0" cellpadding="11" rowspan>
+         <thead>
+             <th rowspan="2">Aluno</th>
+             <th colspan="2">Notas</th>
+             <tr>
+                
+                 <th><i>Prova</i></th>
+                 <th><i>Trabalho</i></th>
+             </tr>
+             <tr class="linha">
+                 <td>Maria Fernanda</td>
+                 <td id="Maior">10</td>
+                 <td class="Menor">5</td>
+             </tr>
+             <tr>
+                 <td>Enzo Gabriel</td>
+                 <td class="Menor">4.5</td>
+                 <td id="Maior">8</td>
+             </tr>
+             <tr class="linha">
+                 <td>Chewbacca da Silva</td>
+                 <td id="Maior">9.75</td>
+                 <td class="Menor">3</td>
+             </tr>
+             <tr>
+                 <td>Calopsita Almeida</td>
+                 <td id="Maior">6.8</td>
+                 <td id="Maior">7.1</td>
+             </tr>
+         </thead>
+    </table>
+</body>
+</html>
